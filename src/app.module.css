@@ -1,0 +1,30 @@
+.tableHeading {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 8px;
+}
+
+.container {
+  margin: 8px;
+  height: 100vh;
+  overflow: auto;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+@media print {
+    .buttonContainer{
+        display: none;
+    }
+}
+
+.list{
+    height: 60%;
+    overflow-y: scroll;
+}
+
