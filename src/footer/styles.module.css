@@ -1,0 +1,17 @@
+.footer{
+    background: red;
+    padding: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.label{
+    margin-right: 20px;
+}
