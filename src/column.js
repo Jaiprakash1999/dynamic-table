@@ -2,12 +2,12 @@ export const columns = [
   {
     key: "code1",
     label: "L_SUPP_NUM",
-    width: "5%",
+    width: "15%",
   },
   {
     key: "code2",
     label: "L_SUPP_NAME",
-    width: "22%",
+    width: "12%",
   },
   {
     key: "code3",
