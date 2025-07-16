@@ -9,7 +9,13 @@
   height: 100vh;
   overflow: auto;
 }
-
+@media print {
+  .container{
+    margin: 8px;
+    height: none;
+    overflow: visible;
+  }
+}
 .buttonContainer{
     display: flex;
     justify-content:flex-end;
@@ -24,7 +30,13 @@
 }
 
 .list{
-    height: 60%;
+    max-height: 60%;
     overflow-y: scroll;
+}
+@media print {
+  .list{
+    max-height: none;
+    overflow-y: visible;
+  }
 }
 
