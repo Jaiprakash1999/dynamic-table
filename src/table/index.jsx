@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./styles.module.css";
+import "./styles.module.css";
 
 // Example: 20 supplier rows shaped for DynamicList
 
 const ListComponent = ({ suppliersData = [], columns = [] }) => {
   return (
         <table>
-          <thead className={styles.tableHeader}>
+          <thead>
             {columns.length > 0 &&
               columns.map((column) => (
                 <th key={column.key} style={{ width: column.width }}>
